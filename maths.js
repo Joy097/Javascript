@@ -22,4 +22,6 @@ function pow(a,b){
     return Math.pow(a,b);
 }
 
-console.log(mod(45,6))
+console.log(add(1,6))
+
+module.exports = add

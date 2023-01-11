@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Arrays.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joy097/Javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joy097/Javascript/issues"
+  },
+  "homepage": "https://github.com/Joy097/Javascript#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}

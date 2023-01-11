@@ -8,3 +8,4 @@ function removeFirstTwo(list){
 const arr2 = removeFirstTwo(arr);
 console.log(arr2)
 console.log(arr)
+module.exports = removeFirstTwo
