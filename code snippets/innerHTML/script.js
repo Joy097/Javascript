@@ -1,4 +1,12 @@
-const fruits = ['banana', 'mango', 'tomato', 'orange']
-var length = fruits.length
+function addfruit(fruit){
+    html+=`<li>${fruit}</li>`;
 
-    document.getElementById("fruits").innerHTML = fruits
+}
+
+const fruits = ['banana', 'mango', 'tomato', 'orange'];
+var length = fruits.length;
+html='<ul>';
+fruits.forEach(addfruit);
+html += '</ul>';
+
+document.getElementById('fruits').innerHTML = html;

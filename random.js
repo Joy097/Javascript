@@ -4,7 +4,7 @@
 
 //random number between 0 to a number
 
-function randomizer(number){
-    return Math.floor(Math.random()*number);
+function randomizer(min, max) {
+    return Math.floor(Math.random()*(max-min)) + min;
 }
-console.log(randomizer(30));
+console.log(randomizer(30,100));
