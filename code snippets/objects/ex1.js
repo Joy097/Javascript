@@ -6,4 +6,4 @@ const person = {
     }
 }
 
-console.log(person.getName());
+console.log(person);
