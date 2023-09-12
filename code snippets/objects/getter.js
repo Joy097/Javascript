@@ -1,8 +1,15 @@
 const person = {
     name: 'John',
     age: 34,
-    get getName(){
-        return this.name
+    status: 'active',
+    get gstat(){
+        return this.status
+    },
+    set sstat(val){
+        this.status = val
     }
 }
 
+person.sstat = 'jogging'
+
+console.log(person.status)
