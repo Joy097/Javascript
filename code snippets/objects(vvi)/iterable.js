@@ -8,11 +8,3 @@ console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
-
-//make an object iterable:
-const numbers = {
-    one:1,
-    two:2,
-    three:3
-}
-
