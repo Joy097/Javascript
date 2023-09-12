@@ -10,4 +10,7 @@ function Person(first, last, age, status){
 
 const joy = new Person('Joy', 'chowdhury', 24,'Intern');
 
-console.log(joy.fullName)
+console.log(joy.fullName())
+
+// can't change person as it is a blue print. But joy can be changed
+// String(), Number() all are js constructors
