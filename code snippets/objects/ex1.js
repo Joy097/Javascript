@@ -6,4 +6,4 @@ const person = {
     }
 }
 
-console.log(person);
+document.getElementById('demo').innerHTML = person.name + ' is ' + person.age;
