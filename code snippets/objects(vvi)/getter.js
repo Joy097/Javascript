@@ -10,9 +10,13 @@ const person = {
     }
 }
 
-Object.defineProperty(person,getName,{
-    return this.name
-})
+Object.defineProperty(person, "getName",{
+    get: function(){
+        return this.name;
+    }
+});
+
+
 person.sstat = 'jogging'
 
 console.log(person.getName)
