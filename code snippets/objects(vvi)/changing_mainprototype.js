@@ -1,4 +1,6 @@
 String.prototype.havingfun = function(){
     return "Just having fun!"
 }
-const 
+const str = 'test case'
+
+console.log(str.havingfun())
