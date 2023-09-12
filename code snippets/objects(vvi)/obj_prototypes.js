@@ -11,7 +11,10 @@ function Person(first, last, age, status){
         return this.first + ' ' + this.last
     }
 }
+Person.prototype.country = 'Bangladesh'
 
-//const joy = new Person('Joy', 'chowdhury', 24,'Intern');
+const joy = new Person('Joy', 'chowdhury', 24,'Intern');
+const jaber = new Person('Jaber', 'chakma', 42,'Intern');
+const jaker = new Person('Joy', 'chowdhury', 24,'Intern');
 
-console.log(joy.fullName())
+console.log(joy.country)
