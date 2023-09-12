@@ -14,7 +14,7 @@ function Person(first, last, age, status){
 Person.prototype.country = 'Bangladesh'
 
 const joy = new Person('Joy', 'chowdhury', 24,'Intern');
-const jaber = new Person('Jaber', 'chakma', 42,'Intern');
-const jaker = new Person('Joy', 'chowdhury', 24,'Intern');
+const jaber = new Person('Jaber', 'chakma', 42,'Employee');
+const jaker = new Person('Jaker', 'khan', 34,'CEO');
 
-console.log(joy.country)
+console.log(jaker.country)
