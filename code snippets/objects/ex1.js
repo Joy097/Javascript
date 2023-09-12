@@ -6,4 +6,4 @@ const person = {
     }
 }
 
-document.getElementById('demo').innerHTML = person.name + ' is ' + person.age;
+document.getElementById('demo').innerHTML = JSON.stringify(person);
