@@ -30,3 +30,7 @@ in the variable add. Now we can call that inside function
 of that scope from outside. Because the closure is created
 and it keeps the counter variable inside closure so the 
 user can use it later on. 
+
+7. difference of method and function?
+= method is like a function but stays in class and to call
+it, we have to use the object's name. 
