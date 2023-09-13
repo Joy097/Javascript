@@ -27,4 +27,6 @@ add();
 generally we cant call a function outside the scope. But
 closure helps to do that. Here, we are returning a function
 in the variable add. Now we can call that inside function
-of that scope.  
+of that scope from outside. Because the closure is created
+and it keeps the counter variable inside closure so the 
+user can use it later on. 
