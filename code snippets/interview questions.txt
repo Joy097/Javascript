@@ -3,4 +3,8 @@
 3. difference of function parameter and arguments
 = function a (x,y){}; x and y parameter. a(3,2) here, 3 and 2
  is argument. 
- 4. what is window
+4. what is window?
+= the mother object. And java is all about objects.
+5. how to get array max?
+= using apply
+6. 
