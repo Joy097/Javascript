@@ -7,4 +7,24 @@
 = the mother object. And java is all about objects.
 5. how to get array max?
 = using apply
-6. 
+6. What is closure ?
+= closure is a function, having access to the parent scope
+ even after the parent function has closed. Here, the
+ counter in temporary is kept in a location to use later
+ and in this way, user can access a variable of that scope
+ outside the scope using closure.
+
+function temporary() {
+    let counter = 0;
+
+    return function () {
+        counter += 1;
+    }
+  }
+let add = temporary();
+add();
+
+generally we cant call a function outside the scope. But
+closure helps to do that. Here, we are returning a function
+in the variable add. Now we can call that inside function
+of that scope.  
