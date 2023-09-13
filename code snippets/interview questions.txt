@@ -45,3 +45,5 @@ car.call(). But we can use it like a property, car.call
 = normally js works synchronously or line by line. But
 we can make it asynchronous by using setTimeout function 
 and skip that to use later on.
+11. You can only give just the function name without '()'
+or a new whole function as the callback
