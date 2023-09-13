@@ -5,6 +5,7 @@ function calc(){
     console.log(this)
 }
 calc(); //returns window
+//calc() and window.calc() are same 
 
 const x = {
     a:function(){
