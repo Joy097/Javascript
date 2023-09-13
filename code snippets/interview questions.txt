@@ -41,4 +41,7 @@ car.call(). But we can use it like a property, car.call
 
 9. what is callback?
 = callback is putting a function as a parameter inside another function.
-10. 
+10. What is async? (means, I will finish later)
+= normally js works synchronously or line by line. But
+we can make it asynchronous by using setTimeout function 
+and skip that to use later on.
