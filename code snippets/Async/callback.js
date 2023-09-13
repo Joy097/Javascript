@@ -1,4 +1,4 @@
-// callback is a function that can be passed as a 
+// callback is putting a function as a 
 // parameter inside another function.
 
 function display(value){
@@ -26,3 +26,4 @@ function calculate(num1, num2, callback){
 calculate(3, 8, function(value){
     console.log(value);
 })
+
