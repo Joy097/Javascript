@@ -1,15 +1,13 @@
-// closure is about global and local variable
+//have to call the inner function using closure
 
-let counter = 0; //global variable
-
-let result = () => {
+function temporary() {
     let counter = 0;
-    let a = 7;   //local variable
-    counter += a;  
-    return counter 
-}
 
-let e = result();
+    return function () {
+        counter += 1;
+    }
+  }
 
-console.log(e);
-console.log(counter)
+const add = temporary(); //so, now add is a function
+
+add();
