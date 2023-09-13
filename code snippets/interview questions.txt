@@ -1,0 +1,5 @@
+1. wahts is hoisting
+2. difference of map and objects
+3. difference of function parameter and arguments
+= function a (x,y){}; x and y parameter. a(3,2) here, 3 and 2
+ is argument. 
