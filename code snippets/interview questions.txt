@@ -36,4 +36,5 @@ user can use it later on.
 it, we have to use the object's name. But function is independent.
 
 8. why we use get function instead of just function?
-= because using get we do not have to use 
+= because using get we do not have to use parntheses like,
+car.call(). But we can use it like a property, car.call

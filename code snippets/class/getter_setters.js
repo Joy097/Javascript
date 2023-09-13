@@ -1,6 +1,6 @@
 class Car{
     constructor(name, year){
-        this.name = name;
+        this._name = name;
         this.year = year;
     }
 
@@ -9,6 +9,14 @@ class Car{
     }
 
     get name(){
-        
+        return this._name;
+    }
+
+    set name(nm){
+        this._name = nm;
     }
 }
+
+let myCar = new Car();
+myCar.name = 'Fiesta'
+document.getElementById("car").innerHTML = myCar.name;
