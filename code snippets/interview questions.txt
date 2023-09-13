@@ -34,3 +34,6 @@ user can use it later on.
 7. difference of method and function?
 = method is like a function but stays in class and to call
 it, we have to use the object's name. But function is independent.
+
+8. why we use get function instead of just function?
+= because using get we do not have to use 
