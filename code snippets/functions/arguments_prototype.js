@@ -1,4 +1,4 @@
-function a(c,v){
+function a(){
     console.log(arguments.length)
     console.log(arguments[0])
 }
