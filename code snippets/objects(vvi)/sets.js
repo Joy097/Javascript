@@ -12,3 +12,11 @@ sets.forEach(function(value) {
     x+=value
 })
 console.log(x)
+
+//get iterator
+const letters = new Set(['a', 'b', 'c', 'd', 'e']);
+const iterator = letters.values();
+
+for (let a of iterator) {
+    console.log(a);
+}
