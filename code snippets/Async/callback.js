@@ -18,10 +18,11 @@ calculate(3, 8, display)
 // In other words:
 
 function calculate(num1, num2, callback){
-    let sum = num1 + num2
-    callback(sum)
+    let sum = num1 + num2;
+    if (callback) callback(sum);
+    return sum;
 }
 
 calculate(3, 8, function(value){
-    console.log(value)
+    console.log(value);
 })
