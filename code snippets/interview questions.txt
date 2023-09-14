@@ -57,3 +57,17 @@ enroll(function(){
 })
 **because enroll(progress(getCertificate)) is not possible
 But what if there are multiple functions! then we have to do:
+enroll(function(){
+    progress(function(){
+        C(function(){
+            D(function(){
+                E(function(){
+                    F(function(){
+                        G(Goes on...);
+                    });
+                });
+            });
+        });
+    });
+})
+This is callback hell

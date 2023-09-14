@@ -34,5 +34,5 @@ function getCertificate(){
 }
 
 enroll(function(){
-    progress();
+    progress(getCertificate);
 })
