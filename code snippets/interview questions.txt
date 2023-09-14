@@ -47,3 +47,13 @@ we can make it asynchronous by using setTimeout function
 and skip that to use later on.
 11. You can only give just the function name without '()'
 or a new whole function as the callback
+12. What is call back hell?
+= we know, when we have to call back a function inside another function,
+then we usually put the whole function or the name. But as we
+have to callback several function, so we put the whole function
+and give another function inside that. Like: 
+enroll(function(){
+    progress(getCertificate);
+})
+**because enroll(progress(getCertificate)) is not possible
+But what if there are multiple functions! then we have to do:
