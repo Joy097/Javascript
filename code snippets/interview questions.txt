@@ -71,3 +71,5 @@ enroll(function(){
     });
 })
 This is callback hell
+
+13. Promise is better than callback.
