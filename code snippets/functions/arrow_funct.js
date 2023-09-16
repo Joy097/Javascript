@@ -7,3 +7,4 @@ const v = (x,y) => {
     return x*y;};
 
 const c = () => 5;
+
