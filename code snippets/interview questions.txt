@@ -73,3 +73,4 @@ enroll(function(){
 This is callback hell
 
 13. Promise is better than callback.
+14. mentioning async means that function is surely Promise
