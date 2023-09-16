@@ -1,5 +1,5 @@
 const payment = true;
-const marks = 70
+const marks = 90
 
 function enroll(callback){
     console.log('Enrolling');
@@ -27,9 +27,20 @@ function progress(callback){
 }
 
 function getCertificate(){
-    const promise = new Promise(function)
+    const promise = new Promise(function(resolve, reject){
+        resolve('Congrats! Your are getting certificate')
+    })
+
+    return promise
 }
 
-enroll(function(){
-    progress(getCertificate);
-})
+enroll()
+    .then(progress)
+    .then(getCertificate)
+    .then(function(val){
+        console.log(val);
+    })
+
+    .catch(function(err){
+        console.log(err);
+    })
