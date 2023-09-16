@@ -1,7 +1,7 @@
 const payment = true;
 const marks = 90
 
-function enroll(callback){
+function enroll(){
     console.log('Enrolling');
     const promise = new Promise(function(resolve, reject){
         setTimeout(function(){
@@ -13,7 +13,7 @@ function enroll(callback){
     return promise
 }
 
-function progress(callback){
+function progress(){
     console.log('Course in progress');
     const promise = new Promise(function(resolve, reject){
         setTimeout(function(){

@@ -1,5 +1,5 @@
-const payment = true;
-const marks = 90
+const payment = false;
+const marks = 60
 
 function enroll(){
     console.log('Enrolling');
@@ -36,17 +36,20 @@ function getCertificate(){
 
 async function course(){
     try {
-    await enroll()
-    await getCertificate()
-    const result = await getCertificate()
+        await enroll();
+        await progress();
+        const result = await getCertificate()
 
-    console.log(result)}
-    
+        console.log(result)
+    }
+
     catch(err){
         console.log(err)
     }
 
 }
+
+course()
 
 // enroll()
 //     .then(progress)
