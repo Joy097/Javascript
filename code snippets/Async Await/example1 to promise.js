@@ -3,10 +3,12 @@ const marks = 70
 
 function enroll(callback){
     console.log('Enrolling');
-    setTimeout(function(){
-        if(payment) callback();
-        else console.log('Payment not cleared');
-    },2000)
+    const promise = new Promise(function(resolve, reject){
+        setTimeout(function(){
+            if(payment) callback();
+            else console.log('Payment not cleared');
+        },2000)
+    })
 }
 
 function progress(callback){
