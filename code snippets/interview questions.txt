@@ -72,5 +72,12 @@ enroll(function(){
 })
 This is callback hell
 
-13. Promise is better than callback.
+13. Promise is better than callback. But async-await is better than Promise
 14. mentioning async means that function is surely Promise
+15. DOM(Document Object Model) can:
+    - change html elements
+    - change html attributes(type, class)
+    - change css style
+    - add html element and attributes
+    - remove html element and attributes
+    - react to html event(onclick)
