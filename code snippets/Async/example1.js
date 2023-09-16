@@ -1,38 +1,21 @@
-const payment = true
-const marks = 80
-
+const payment = true;
 function enroll(callback){
-    console.log("Enrolling....")
+    console.log('Enrolling');
     setTimeout(function(){
-        if (payment) {
-            console.log("Enroll done!")
-            callback();
-        }
+        if(payment) callback();
+        else console.log('Payment not cleared');
+    },2000)
 
-        else {
-            console.log("Please clear the payment!")
-        }
+}
+function progress(callback){
+    console.log('Enrolling');
+    setTimeout(function(){
+        if(payment) callback();
+        else console.log('Payment not cleared');
     },2000)
 }
-
-function progress(callback){
-    console.log("Conducting the course...")
-    setTimeout(function(){
-        if (marks>=80) {
-            console.log("Completed the course!")
-            callback();
-        }
-
-        else {
-            console.log("Please clear the payment!")
-        }
-    },3000)
+function getCertificate(callback){
+    console.log('Congrats! Your are getting certificate');
 }
 
-function getCertificate(){
-    console.log("Congrats! here is your certificate")
-}
-
-enroll(function(){
-    progress(getCertificate);
-})
+enroll()
