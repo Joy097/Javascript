@@ -1,3 +1,4 @@
-const p = document.getElementById("demo").innerHTML;
+const formValues = document.forms["frm1"];
+console.dir(formValues);
 
-console.log(p)
+for (var i = 0; )
