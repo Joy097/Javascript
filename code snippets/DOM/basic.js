@@ -1,3 +1,3 @@
-const p = document.getElementsByTagName("p");
+const p = document.getElementById("demo").innerHTML;
 
-p.innerHTML = 'test xero'
+console.log(p)
