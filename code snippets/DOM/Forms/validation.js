@@ -1,8 +1,8 @@
+function validateForm(){
 const form = document.forms['myform'];
 const name = form['fname'].value;
 const id = form['fid'].value;
 
-function validateForm(){
     if (name === '' || id === ''){
         alert('Please enter value');
         return false
