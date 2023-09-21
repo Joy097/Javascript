@@ -1,5 +1,5 @@
 function validateForm(){
-const form = document.forms['myform'];
+const form = document.forms['myForm'];
 const name = form['fname'].value;
 const id = form['fid'].value;
 
