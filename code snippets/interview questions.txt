@@ -82,3 +82,4 @@ This is callback hell
     - remove html element and attributes
     - react to html event(onclick etc.)
 16. Is it possible to have multiple id in a web page? - No
+17. document.getElementById and document.querySelector is same
