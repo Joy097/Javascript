@@ -1,6 +1,6 @@
 const form = document.forms['myform'];
-name = form['fname'].value;
-id = form['fid'].value;
+const name = form['fname'].value;
+const id = form['fid'].value;
 
 function validateForm(){
     if (name === '' || id === ''){
