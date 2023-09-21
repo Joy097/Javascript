@@ -5,3 +5,4 @@ id = form['fid'].value;
 if (name === '' || id === ''){
     alert('Please enter value')
 }
+elif ()
