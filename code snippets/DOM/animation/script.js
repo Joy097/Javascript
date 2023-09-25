@@ -2,7 +2,7 @@ function myMove(){
     const animate = document.getElementById('animate');
     let pos = 0
 
-    setInterval(frame,5)
+    const interval = setInterval(frame, 5);
     function frame(){
         if(pos<350){
             pos++;
