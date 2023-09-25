@@ -10,7 +10,7 @@ function myMove(){
             animate.style.left = pos + 'px';
         }
         else{
-            
+            clear
         }
     }
 }
