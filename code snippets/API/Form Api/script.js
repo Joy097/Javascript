@@ -12,8 +12,4 @@ function validation(){
     if(!inpObj.checkValidity()){
         document.getElementById("demo").innerHTML = inpObj.validationMessage;
     }
-
-    if(!inpObj.checkValidity()){
-        document.getElementById("demo").innerHTML = inpObj.validationMessage;
-    }
 }
