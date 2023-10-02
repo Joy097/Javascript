@@ -6,9 +6,10 @@ function setCookie(cname, cvalue, exdays){
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/"
 }
 function getCookie(cname){
-    arr = document.cookie.split("=");
+    arr = document.cookie.split(";");
     console.log(arr);
     for (let i = 0; i < arr.length; i++){
-        console.log(arr[i]);
+        val = arr[i].split("=")
+        console.log();
     }
 }
