@@ -6,10 +6,13 @@ function setCookie(cname, cvalue, exdays){
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/"
 }
 function getCookie(cname){
-    arr = document.cookie.split(";");
+    let arr = document.cookie.split(";");
     console.log(arr);
     for (let i = 0; i < arr.length; i++){
-        val = arr[i].split("=")
-        console.log();
+        let val = arr[i].split("=")
+        if(val[0].trim()==cname){
+            var result = val[1].trim()
+        }
     }
+    document.getElementById("demo").innerHTML = result
 }
