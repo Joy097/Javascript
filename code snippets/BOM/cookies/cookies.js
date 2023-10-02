@@ -6,5 +6,9 @@ function setCookie(cname, cvalue, exdays){
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/"
 }
 function getCookie(cname){
-    console.log(document.cookie);
+    arr = document.cookie.split("=");
+    console.log(arr);
+    for (let i = 0; i < arr.length; i++){
+        console.log(arr[i]);
+    }
 }
