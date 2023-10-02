@@ -5,6 +5,7 @@ function setCookie(cname, cvalue, exdays){
 
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/"
 }
+
 function getCookie(cname){
     let arr = document.cookie.split(";");
     console.log(arr);
