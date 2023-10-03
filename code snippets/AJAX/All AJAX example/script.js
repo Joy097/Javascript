@@ -4,8 +4,13 @@ function sendRequest(method, url, data){
     const xhr = new XMLHttpRequest();
 
     xhr.onload = function(){
-        if
-        resolve(xhr.response);
+        if(this.status>=400){
+            reject(`There is an application error.
+            Status: ${this.status}
+            Response Text: ${this.response}`);
+        }else{
+            resolve(xhr.response);
+        }        
     };
     xhr.onerror = function(){
         reject("There was an error");
