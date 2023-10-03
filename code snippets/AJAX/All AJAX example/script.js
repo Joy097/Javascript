@@ -5,7 +5,7 @@ function sendRequest(method, url){
 
     xhr.onload = function(){
         resolve(this.response);
-    }
+    };
 
     xhr.open(method,url)
     xhr.responseType = 'json';
@@ -16,7 +16,9 @@ function sendRequest(method, url){
 
 function getData(){
     sendRequest('GET','https://jsonplaceholder.typicode.com/todos/1')
-    .then(responseData => console.log(responseData));
+    .then((responseData) => {
+        console.log(responseData);
+    });
 }
 
 function sendData(){}
