@@ -1,12 +1,20 @@
-function getData(){
+function sendRequest(method, url){
     const xhr = new XMLHttpRequest();
 
     xhr.onload = function(){
         console.log(this.responseText);
     }
 
-    xhr.open('GET','https://jsonplaceholder.typicode.com/todos/1')
+    xhr.open(method,url)
 
+    xhr.responseType = 'json';
+
+    xhr.send();
+
+}
+
+function getData(){
+    sendRequest('GET','https://jsonplaceholder.typicode.com/todos/1')
 }
 function sendData(){}
 
