@@ -85,3 +85,4 @@ This is callback hell
 17. document.getElementById and document.querySelector is same
 18. Normally css works instantly and shows with the changes. but js works after the page is loaded  
 19. Js is a single threaded language
+20. fetch is an asynchronous process
