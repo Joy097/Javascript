@@ -27,7 +27,7 @@ function progress(){
 }
 
 function getCertificate(){
-    const promise = new Promise(function(resolve, reject){
+    const promise = new Promise(function(resolve){
         resolve('Congrats! Your are getting certificate')
     })
 
