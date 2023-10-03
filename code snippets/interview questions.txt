@@ -87,3 +87,9 @@ This is callback hell
 19. Js is a single threaded language
 20. fetch is an asynchronous process
 21. AJAX is all about request and response
+22. XMLHttpRequest is named because at first all data was XML. But now it is JSON
+And the flow is 
+1. Create XMLHttpRequest object
+2. Define callback
+3. Open XMLHttpRequest object
+4. Send request to server
