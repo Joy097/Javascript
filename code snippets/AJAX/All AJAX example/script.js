@@ -4,7 +4,11 @@ function sendRequest(method, url, data){
     const xhr = new XMLHttpRequest();
 
     xhr.onload = function(){
+        if
         resolve(xhr.response);
+    };
+    xhr.onerror = function(){
+        reject("There was an error");
     };
 
     xhr.open(method,url)
@@ -20,6 +24,9 @@ function getData(){
     sendRequest('GET','https://jsonplaceholder.typicode.com/todos/1')
     .then((responseData) => {
         console.log(responseData);
+    })
+    .catch(err => {
+        console.log(err);
     });
 }
 
