@@ -1,10 +1,10 @@
 function loadData(){
-    const xhttpr = new XMLHttpRequest();
+    const xhr = new XMLHttpRequest();
 
-    xhttpr.onload = function(){
-        const container = document.getElementById('demo')
-        demo.innerHTML = xhttpr.responseText
+    xhr.onload(){
+        const content = document.getElementById('demo')
+        content.innerHTML = xhr.responseText;
     }
 
-    xhttpr.open("GET", );
+    xhr.
 }
