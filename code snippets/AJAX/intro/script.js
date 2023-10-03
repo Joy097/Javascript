@@ -3,6 +3,8 @@ function loadData(){
 
     xhttpr.onload = function(){
         const container = document.getElementById('demo')
-        demo.
+        demo.innerHTML = xhttpr.responseText
     }
+
+    xhttpr.open("GET", );
 }
