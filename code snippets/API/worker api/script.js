@@ -1,3 +1,4 @@
+let w;
 function startWorker(){
     if(typeof Worker !== 'undefined'){
 
