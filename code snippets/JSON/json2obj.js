@@ -4,4 +4,8 @@ console.log(jsonString) // unusable
 
 const myObj = JSON.parse(jsonString)
 
-console.log(myObj)  // unusable 
+console.log(myObj)  // usable 
+
+const stringify = JSON.stringify(myObj)
+
+console.log(stringify) //stringified
