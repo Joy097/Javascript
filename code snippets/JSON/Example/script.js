@@ -10,4 +10,7 @@ async function change_myselect(sel){
         
     });
 
+    const myObj = await response.json();
+    text = "<table></table>";
+
 }
